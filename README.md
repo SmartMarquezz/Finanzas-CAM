@@ -2,6 +2,35 @@
 
 Sitio web one-page para Finanzas CAM, membership privado de inversión en México.
 
+## 📤 Subir a GitHub
+
+El código ya está preparado para subir a GitHub. Tienes dos opciones:
+
+### Opción 1: Usando Personal Access Token (Recomendado)
+
+1. Ve a [GitHub Settings > Tokens](https://github.com/settings/tokens)
+2. Haz clic en "Generate new token (classic)"
+3. Dale un nombre (ej: "Finanzas CAM")
+4. Selecciona el scope `repo`
+5. Genera el token y cópialo
+6. En la terminal, ejecuta:
+   ```bash
+   git push -u origin main
+   ```
+7. Cuando pida usuario: tu username de GitHub
+8. Cuando pida contraseña: pega el token (no tu contraseña)
+
+### Opción 2: Usando el script
+
+Ejecuta el script de ayuda:
+```bash
+./push-to-github.sh
+```
+
+### Opción 3: Desde GitHub Desktop o VS Code
+
+Si tienes GitHub Desktop o la extensión de Git en VS Code, puedes hacer el push desde ahí.
+
 ## 🚀 Desplegar en Vercel
 
 ### Opción 1: Desde la interfaz web (Más fácil)
